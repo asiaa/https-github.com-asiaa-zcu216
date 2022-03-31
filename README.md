@@ -12,19 +12,30 @@ password:admin
 * Incoming and outgoing ports all have to be adjusted.
 * Connector at Mellanox side has to be Mellanox specified. Other brand's doesn't work. 
 [standalone: master] > enable
+
 [standalone: master] # configure terminal
+
 [standalone: master] (config) # interface ethernet 1/1 shutdown
+
 [standalone: master] (config interface ethernet 1/1) # mtu 9216
+
 [standalone: master] (config interface ethernet 1/1) # exit
+
 [standalone: master] (config) # no interface ethernet 1/1 shutdown
+
 * save the change.  
+* 
 [standalone: master] (config) # configuration write 
+
 
 
 # Setup the Mellanox NIC:
 * Prior to the test, the MTU of 100G NIC has to be expanded to more than the size from ZCU216. I set it to 9660. The max. is 9999. The command is :
 Root > ifconfig 'name_of_100G_port' mtu 9660
+
 For example:
+
 Root > ifconfig enp23s0f1 mtu 9660
+
 
 Issue the 'ifconfig' again to make sure the mtu has been changed. If the mtu size is smaller than the packets sent, all packets will be lost, and nothing you can get on the PC.
