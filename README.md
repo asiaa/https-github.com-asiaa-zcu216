@@ -6,6 +6,7 @@
 
 Mellanox SN2100 switch: 
 * Use the RJ45+rs232 converter cable, connect to the console port. For SN2100, locate at rigtht top.
+
 user: admin
 
 password:admin
