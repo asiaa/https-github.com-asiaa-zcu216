@@ -8,7 +8,7 @@ Mellanox SN2100 switch:
 * Use the RJ45+rs232 converter cable, connect to the console port. For SN2100, locate at rigtht top.
 user: admin
 
-password:admin       
+password:admin
 
 * Adjust the MTU size. Default is 1500, that is too small for our application.
 * Incoming and outgoing ports all have to be adjusted.
