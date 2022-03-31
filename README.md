@@ -7,21 +7,27 @@
 Mellanox SN2100 switch: 
 * Use the RJ45+rs232 converter cable, connect to the console port. For SN2100, locate at rigtht top.
 user: admin
+
 password:admin       
+
 * Adjust the MTU size. Default is 1500, that is too small for our application.
 * Incoming and outgoing ports all have to be adjusted.
 * Connector at Mellanox side has to be Mellanox specified. Other brand's doesn't work. 
 [standalone: master] > enable
 
 [standalone: master] # configure terminal
+
 [standalone: master] (config) # interface ethernet 1/1 shutdown
+
 [standalone: master] (config interface ethernet 1/1) # mtu 9216
+
 [standalone: master] (config interface ethernet 1/1) # exit
+
 [standalone: master] (config) # no interface ethernet 1/1 shutdown
+
 * save the change.  
+
 [standalone: master] (config) # configuration write 
-
-
 
 # Setup the Mellanox NIC:
 * Prior to the test, the MTU of 100G NIC has to be expanded to more than the size from ZCU216. I set it to 9660. The max. is 9999. The command is :
