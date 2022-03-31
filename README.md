@@ -14,17 +14,11 @@ password:admin
 [standalone: master] > enable
 
 [standalone: master] # configure terminal
-
 [standalone: master] (config) # interface ethernet 1/1 shutdown
-
 [standalone: master] (config interface ethernet 1/1) # mtu 9216
-
 [standalone: master] (config interface ethernet 1/1) # exit
-
 [standalone: master] (config) # no interface ethernet 1/1 shutdown
-
 * save the change.  
-* 
 [standalone: master] (config) # configuration write 
 
 
