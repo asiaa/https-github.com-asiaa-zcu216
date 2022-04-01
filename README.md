@@ -1,7 +1,7 @@
 # zcu216
 # Xilinx ZCU216 board development
 # 100G Ethernet:
-  100MHz reference clock is provided by pl_clk0 from the ZYNQ Ultrascale+ block. Fixed 33.333MHz clock provided by Si5341 on the board is the input clock to the ZYNQ Ultrascale+ block. Open the Block design in Vivido; Double click on th4 "ZYNQ ..." block ; Clock on the "Clock Configuration"; "output Clocks" -> "Low Power Domain Clocks" -> "PL Fabric Clocks"; there is PL0 which is specified at 100MHz. So the 100MHz reference clock to 100G Ethernet core is quite stable, can be affected by the modelling.
+  100MHz reference clock is provided by pl_clk0 from the ZYNQ Ultrascale+ block. Fixed 33.333MHz clock provided by Si5341 on the board is the input clock to the ZYNQ Ultrascale+ block. Open the Block design in Vivido; Double click on the "ZYNQ ..." block ; Clock on the "Clock Configuration"; "output Clocks" -> "Low Power Domain Clocks" -> "PL Fabric Clocks"; there is PL0 which is specified at 100MHz. So the 100MHz reference clock to 100G Ethernet core is quite stable, can be affected by the modelling.
 # Setup the Mellanox switch:
 
 Mellanox SN2100 switch: 
@@ -41,4 +41,8 @@ Root > ifconfig enp23s0f1 mtu 9660
 
 Issue the 'ifconfig' again to make sure the mtu has been changed. If the mtu size is smaller than the packets sent, all packets will be lost, and nothing you can get on the PC.
 
+# Cable/Connector:
+* Copper and optical fiber cables were tested. At Mellanox switch or NIC side, Mellanox specified connector is a must, other brands do not work. At ZCu216 side, looks like all brands are fine. "Mellanox", "Generic" and a local brand "Jumbo-Sum" has been tested, they are all fine.
+
 ![Screenshot _100G_2022-04-01](https://user-images.githubusercontent.com/1265867/161182153-183260b4-ffd6-4664-853a-4bf05c5d055d.png)
+
