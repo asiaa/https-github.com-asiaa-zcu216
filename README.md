@@ -33,7 +33,7 @@ password:admin
 # Setup the Mellanox NIC:
 * NIC = Mellanox MCX416A-CCAT ConnectX®-4 EN network interface card,100GbE dual-port QSFP28,PCIe 3.0 x 16
 * Use the RJ45+rs232 converter cable, connect to the console port. For SN2100, locate at rigtht top.
-* https://docs.nvidia.com/networking/display/Onyxv393220
+* Mellanox switch user manual :  https://docs.nvidia.com/networking/display/Onyxv393220
 * Prior to the test, the MTU of 100G NIC has to be expanded to more than the size from ZCU216. I set it to 9660. The max. is 9999. The command is :
 Root > ifconfig 'name_of_100G_port' mtu 9660
 
