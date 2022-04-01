@@ -39,4 +39,9 @@ For example:
 Root > ifconfig enp23s0f1 mtu 9660
 
 
-Issue the 'ifconfig' again to make sure the mtu has been changed. If the mtu size is smaller than the packets sent, all packets will be lost, and nothing you can get on the PC.
+Issue the 'ifconfig' again to make sure the m
+
+
+tu has been changed. If the mtu size is smaller than the packets sent, all packets will be lost, and nothing you can get on the PC.
+
+![Screenshot _100G_2022-04-01](https://user-images.githubusercontent.com/1265867/161182153-183260b4-ffd6-4664-853a-4bf05c5d055d.png)
