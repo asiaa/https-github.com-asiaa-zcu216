@@ -67,7 +67,7 @@ Issue the 'ifconfig' again to make sure the mtu has been changed. If the mtu siz
 
 [HiSpeedDigital_Ubuntu.pdf](https://github.com/asiaa/zcu216/files/8494259/HiSpeedDigital_Ubuntu.pdf)
 
-[HiSpeedDigital_VirtualPythonLocalExample.pdf](https://github[HiSpeedDigital_ZCU216Misc.pdf](https://github.com/asiaa/zcu216/files/8494261/HiSpeedDigital_ZCU216Misc.pdf)
+[HiSpeedDigital_ZCU216Misc.pdf](https://github.com/asiaa/zcu216/files/8494261/HiSpeedDigital_ZCU216Misc.pdf)
 
 [HiSpeedDigital_VirtualPythonLocalExample.pdf](https://github.com/asiaa/zcu216/files/8494309/HiSpeedDigital_VirtualPythonLocalExample.pdf)
 
