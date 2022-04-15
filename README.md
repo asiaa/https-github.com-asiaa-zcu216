@@ -1,7 +1,8 @@
 # zcu216
 # Xilinx ZCU216 board development
 # 100G Ethernet:
-  100MHz reference clock is provided by pl_clk0 from the ZYNQ Ultrascale+ block. Fixed 33.333MHz clock provided by Si5341 on the board is the input clock to the ZYNQ Ultrascale+ block. Open the Block design in Vivido; Double click on the "ZYNQ ..." block ; Clock on the "Clock Configuration"; "output Clocks" -> "Low Power Domain Clocks" -> "PL Fabric Clocks"; there is PL0 which is specified at 100MHz. So the 100MHz reference clock to 100G Ethernet core is quite stable, can be affected by the modelling.
+  100MHz reference clock is provided by pl_clk0 from the ZYNQ Ultrascale+ block. 
+  Fixed 33.333MHz clock provided by Si5341 on the board is the input clock to the ZYNQ Ultrascale+ block. Open the Block design in Vivido; Double click on the "ZYNQ ..." block ; Clock on the "Clock Configuration"; "output Clocks" -> "Low Power Domain Clocks" -> "PL Fabric Clocks"; there is PL0 which is specified at 100MHz. So the 100MHz reference clock to 100G Ethernet core is quite stable, can be affected by the modelling.
 # Setup the Mellanox switch:
 
 Mellanox SN2100 switch: 
@@ -51,9 +52,10 @@ Issue the 'ifconfig' again to make sure the mtu has been changed. If the mtu siz
 ![Screenshot _100G_2022-04-01](https://user-images.githubusercontent.com/1265867/161182153-183260b4-ffd6-4664-853a-4bf05c5d055d.png)
 
 # Misc
+
 [HiSpeedDigital _8A34001.pdf](https://git[HiSpeedDigital_100G.pdf](https://github.com/asiaa/zcu216/files/8494253/HiSpeedDigital_100G.pdf)
 
-hub.com/asiaa/zcu216/files/8494252/HiSpeedDigital._8A34001.pdf)
+[HiSpeedDigital _8A34001.pdf](https://github.com/asiaa/zcu216/files/8494295/HiSpeedDigital._8A34001.pdf)
 
 [HiSpeedDigital_GetTheCasperfpgaUnderVirtualEnvironment.pdf](https://github.com/asiaa/zcu216/files/8494254/HiSpeedDigital_GetTheCasperfpgaUnderVirtualEnvironment.pdf)
 
@@ -66,10 +68,12 @@ hub.com/asiaa/zcu216/files/8494252/HiSpeedDigital._8A34001.pdf)
 [HiSpeedDigital_Ubuntu.pdf](https://github.com/asiaa/zcu216/files/8494259/HiSpeedDigital_Ubuntu.pdf)
 
 [HiSpeedDigital_VirtualPythonLocalExample.pdf](https://github[HiSpeedDigital_ZCU216Misc.pdf](https://github.com/asiaa/zcu216/files/8494261/HiSpeedDigital_ZCU216Misc.pdf)
-.com/asiaa/zcu[HiSpeedDigitalClocks.pdf]
+
 
 (https://github.com/asiaa/zcu216/files/8494263/HiSpeedDigitalClocks.pdf)
 216/files/8494260/HiSpeedDigital_VirtualPythonLocalExample.pdf)
 
 [HominWiki_MainHomePage.pdf](https://github.com/asiaa/zcu216/files/8494264/HominWiki_MainHomePage.pdf)
+
+[HiSpeedDigitalClocks.pdf](https://github.com/asiaa/zcu216/files/8494297/HiSpeedDigitalClocks.pdf)
 
