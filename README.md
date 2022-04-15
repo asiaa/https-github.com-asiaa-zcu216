@@ -69,11 +69,11 @@ Issue the 'ifconfig' again to make sure the mtu has been changed. If the mtu siz
 
 [HiSpeedDigital_VirtualPythonLocalExample.pdf](https://github[HiSpeedDigital_ZCU216Misc.pdf](https://github.com/asiaa/zcu216/files/8494261/HiSpeedDigital_ZCU216Misc.pdf)
 
-
-(https://github.com/asiaa/zcu216/files/8494263/HiSpeedDigitalClocks.pdf)
-216/files/8494260/HiSpeedDigital_VirtualPythonLocalExample.pdf)
+[HiSpeedDigital_VirtualPythonLocalExample.pdf](https://github.com/asiaa/zcu216/files/8494309/HiSpeedDigital_VirtualPythonLocalExample.pdf)
 
 [HominWiki_MainHomePage.pdf](https://github.com/asiaa/zcu216/files/8494264/HominWiki_MainHomePage.pdf)
 
-[HiSpeedDigitalClocks.pdf](https://github.com/asiaa/zcu216/files/8494297/HiSpeedDigitalClocks.pdf)
+[HiSpeedDigitalClocks.pdf](https://github.com/asiaa/zcu216/files/8494306/HiSpeedDigitalClocks.pdf)
+
+
 
