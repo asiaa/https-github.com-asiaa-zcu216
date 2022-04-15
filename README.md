@@ -50,3 +50,26 @@ Issue the 'ifconfig' again to make sure the mtu has been changed. If the mtu siz
 
 ![Screenshot _100G_2022-04-01](https://user-images.githubusercontent.com/1265867/161182153-183260b4-ffd6-4664-853a-4bf05c5d055d.png)
 
+# Misc
+[HiSpeedDigital _8A34001.pdf](https://git[HiSpeedDigital_100G.pdf](https://github.com/asiaa/zcu216/files/8494253/HiSpeedDigital_100G.pdf)
+
+hub.com/asiaa/zcu216/files/8494252/HiSpeedDigital._8A34001.pdf)
+
+[HiSpeedDigital_GetTheCasperfpgaUnderVirtualEnvironment.pdf](https://github.com/asiaa/zcu216/files/8494254/HiSpeedDigital_GetTheCasperfpgaUnderVirtualEnvironment.pdf)
+
+[HiSpeedDigital_GetTheLibrary.pdf](https://github.com/asiaa/zcu216/files/8494255/HiSpeedDigital_GetTheLibrary.pdf)
+
+[HiSpeedDigital_Modifications.pdf](https://github.com/asiaa/zcu216/files/8494257/HiSpeedDigital_Modifications.pdf)
+
+[HiSpeedDigital_SDBooting.pdf](https://github.com/asiaa/zcu216/files/8494258/HiSpeedDigital_SDBooting.pdf)
+
+[HiSpeedDigital_Ubuntu.pdf](https://github.com/asiaa/zcu216/files/8494259/HiSpeedDigital_Ubuntu.pdf)
+
+[HiSpeedDigital_VirtualPythonLocalExample.pdf](https://github[HiSpeedDigital_ZCU216Misc.pdf](https://github.com/asiaa/zcu216/files/8494261/HiSpeedDigital_ZCU216Misc.pdf)
+.com/asiaa/zcu[HiSpeedDigitalClocks.pdf]
+
+(https://github.com/asiaa/zcu216/files/8494263/HiSpeedDigitalClocks.pdf)
+216/files/8494260/HiSpeedDigital_VirtualPythonLocalExample.pdf)
+
+[HominWiki_MainHomePage.pdf](https://github.com/asiaa/zcu216/files/8494264/HominWiki_MainHomePage.pdf)
+
